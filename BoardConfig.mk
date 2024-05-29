@@ -27,6 +27,12 @@ TARGET_RECOVERY_DEVICE_MODULES ?= init_ivan
 TARGET_KERNEL_CONFIG := lineage-ivan_defconfig
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
+# Modules
+BOARD_VENDOR_KERNEL_MODULES_LOAD := \
+    kheaders.ko \
+    lcd.ko \
+    tcp_westwood.ko
+
 # Vibrator
 TARGET_VIBRATOR_ALT_SEQ_TYPE := true
 
