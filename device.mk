@@ -23,6 +23,10 @@ $(call inherit-product, device/oplus/mt6877-common/ossi.mk)
 PRODUCT_VENDOR_PROPERTIES += \
     persist.sys.sf.color_saturation=0.95
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.1-service-ivan
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayivan \
