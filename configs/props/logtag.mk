@@ -5,7 +5,6 @@ VENDOR_LOG_LEVEL=S
 endif
 
 PRODUCT_VENDOR_PROPERTIES += \
-    persist.log.tag.RILMUXD=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RfxMclDisThread=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RfxCloneMgr=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.RfxHandlerMgr=$(VENDOR_LOG_LEVEL) \
@@ -223,14 +222,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.log.tag.CarrierExpressServiceImpl=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.CarrierExpressServiceImplExt=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.PhoneConfigurationSettings=$(VENDOR_LOG_LEVEL) \
-    persist.log.tag.libPowerHal=$(VENDOR_LOG_LEVEL) \
-    persist.log.tag.mtkpower@impl=$(VENDOR_LOG_LEVEL) \
-    persist.log.tag.mtkpower_client=$(VENDOR_LOG_LEVEL) \
-    persist.log.tag.UxUtility=$(VENDOR_LOG_LEVEL) \
-    persist.log.tag.PowerHalAddressUitls=$(VENDOR_LOG_LEVEL) \
-    persist.log.tag.PowerHalMgrImpl=$(VENDOR_LOG_LEVEL) \
-    persist.log.tag.PowerHalMgrServiceImpl=$(VENDOR_LOG_LEVEL) \
-    persist.log.tag.PowerHalWifiMonitor=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.BufferQueueDump=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.BufferQueueProducer=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.SurfaceControl=$(VENDOR_LOG_LEVEL) \
