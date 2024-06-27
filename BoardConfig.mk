@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/oplus/ivan
 
+# Architecture
+TARGET_2ND_ARCH_VARIANT := armv8-2a
+
 # Assertation
 TARGET_OTA_ASSERT_DEVICE := ivan,OP555BL1,IV2201,IV2201EEA
 
