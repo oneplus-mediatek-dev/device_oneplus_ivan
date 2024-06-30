@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ivan.mk
+    $(LOCAL_DIR)/evolution_ivan.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ivan-user \
-    lineage_ivan-userdebug \
-    lineage_ivan-eng
+    evolution_ivan-user \
+    evolution_ivan-userdebug \
+    evolution_ivan-eng

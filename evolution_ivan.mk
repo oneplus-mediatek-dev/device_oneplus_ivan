@@ -22,11 +22,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from device makefile
 $(call inherit-product, device/oplus/ivan/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Evolution X stuff.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+
+# Evolution Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_ENABLE_BLUR := false
+TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_USES_MINI_GAPPS := true
+
+# OFFICIAL
+EVO_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_ivan
+PRODUCT_NAME := evolution_ivan
 PRODUCT_DEVICE := ivan
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus Nord CE 2 5G
